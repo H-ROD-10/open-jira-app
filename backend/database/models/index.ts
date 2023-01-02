@@ -1,0 +1,1 @@
+export {default as Entry, type BEntry} from './Entry.model'
