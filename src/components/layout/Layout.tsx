@@ -5,7 +5,7 @@ import { Sidebar } from "../ui/Sidebar";
 
 interface Props {
     title?: string;
-    children: JSX.Element
+    children: JSX.Element | JSX.Element[]
 }
 
 export const Layout = ({title = 'OpenJira - App', children}: Props) => {
